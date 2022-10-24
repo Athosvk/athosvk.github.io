@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: athosvk/athosvk.github.io
-  branch: master
+  branch: main
   site_domain: spontaneous-unicorn-e82eba.netlify.com
 
 media_folder: "images/uploads"
