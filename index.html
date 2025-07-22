@@ -1,12 +1,66 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
+  <meta charset="UTF-8">
+  <title>Under Construction</title>
+  <style>
+    body {
+      background-color: #ffffcc;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      padding: 80px 20px;
+    }
+
+    .warning-sign {
+      width: 120px;
+      height: 120px;
+      margin: 20px auto;
+    }
+
+    .banner {
+      color: red;
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .construction-text {
+      font-size: 20px;
+      margin-top: 30px;
+    }
+
+    footer {
+      font-size: 12px;
+      color: #666;
+      margin-top: 60px;
+    }
+  </style>
 </head>
 <body>
-  <!-- Include the script that builds the page and powers Netlify CMS -->
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <div class="container">
+    <!-- Triangle Warning SVG -->
+    <svg class="warning-sign" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,5 95,90 5,90" fill="yellow" stroke="black" stroke-width="4"/>
+      <line x1="50" y1="30" x2="50" y2="55" stroke="black" stroke-width="6" />
+      <circle cx="50" cy="70" r="5" fill="black" />
+    </svg>
+
+    <div class="banner">🚧 UNDER CONSTRUCTION 🚧</div>
+
+    <p class="construction-text">
+      My portfolio is currently being built.<br>
+      Please check back soon for updates and cool projects!
+    </p>
+  </div>
+
+  <footer>
+    &copy; 2025 Athos van Kralingen| All Rights Reserved
+  </footer>
 </body>
 </html>
