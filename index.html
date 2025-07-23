@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+<script type="text/javascript">
+
+  setTimeout(function() {
+  var user = 'home';
+  var domain = 'athosvk.com';
+    var email = user + '@' + domain;
+    var container = document.getElementById('email-placeholder');
+    container.insertAdjacentHTML('beforeend', "Contact me at " + '<a href="mailto:' + email + '">' + email + '</a>');
+  }, 500); 
+</script>
+
 <head>
   <meta charset="UTF-8">
-  <title>Under Construction</title>
+  <title>Athosvk</title>
   <style>
     body {
       background-color: #ffffcc;
@@ -56,11 +67,15 @@
     <p class="construction-text">
       My portfolio is currently being built.<br>
       Please check back soon for updates and cool projects!
+
     </p>
+    <p class="construction-text">
+      <div id="email-placeholder"></div>
+    <p>
   </div>
 
   <footer>
-    &copy; 2025 Athos van Kralingen| All Rights Reserved
+    &copy; 2025 Athos van Kralingen | All Rights Reserved
   </footer>
 </body>
 </html>
